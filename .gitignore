@@ -1,0 +1,51 @@
+# Flutter/Dart 内部生成的文件
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+pubspec.lock
+
+# IntelliJ IDEA/Android Studio 项目文件
+.idea/
+*.iml
+
+# VSCode 项目文件
+.vscode/
+
+# iOS 构建文件
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android 构建文件
+android/.gradle/
+android/app/build/
+
+# macOS 构建文件
+macos/Flutter/ephemeral/
+
+# Windows 构建文件
+windows/flutter/ephemeral/
+
+# Linux 构建文件
+linux/flutter/ephemeral/
+
+# Web 构建文件
+web/flutter/ephemeral/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 日志和临时文件
+*.log
+*.tmp
+*.swp
+
+# 缓存文件
+pubspec.lock

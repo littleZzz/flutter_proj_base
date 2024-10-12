@@ -1,8 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_new_proj/components/hoo_loading_view.dart';
+import 'package:flutter_proj_base/components/hoo_loading_view.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
+
 
 ///全局loading  toast 等  使用flutter_smart_dialog
 ///

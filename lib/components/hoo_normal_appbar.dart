@@ -1,7 +1,8 @@
 // ignore_for_file: must_be_immutable, prefer_const_constructors_in_immutables
 
+
 import 'package:flutter/material.dart';
-import 'package:flutter_new_proj/components/hoo_text.dart';
+import 'package:flutter_proj_base/components/hoo_text.dart';
 
 ///仅包含返回按钮的 通用appbar
 class HooNormalAppbar extends StatelessWidget implements PreferredSizeWidget {

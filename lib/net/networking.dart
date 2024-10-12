@@ -5,13 +5,14 @@ import 'package:dio/io.dart';
 import 'package:dio_cache_interceptor/dio_cache_interceptor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
-import 'package:flutter_new_proj/components/hoo_loading.dart';
-import 'package:flutter_new_proj/net/api.dart';
-import 'package:flutter_new_proj/net/custom_log_interceptor.dart';
-import 'package:flutter_new_proj/net/header_interceptor.dart';
-import 'package:flutter_new_proj/net/env.dart';
+import 'package:flutter_proj_base/components/hoo_loading.dart';
+import 'package:flutter_proj_base/net/api.dart';
+import 'package:flutter_proj_base/net/custom_log_interceptor.dart';
+import 'package:flutter_proj_base/net/env.dart';
+import 'package:flutter_proj_base/net/header_interceptor.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:system_proxy/system_proxy.dart';
+
 
 bool proxyIsOpen = true; //是否需要代理
 

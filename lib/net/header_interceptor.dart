@@ -5,12 +5,14 @@ import 'dart:io';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:crypto/crypto.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_new_proj/net/env.dart';
-import 'package:flutter_new_proj/util/app_network_connectivity.dart';
-import 'package:flutter_new_proj/util/app_storage.dart';
-import 'package:flutter_new_proj/util/notification_center.dart';
-import 'package:flutter_new_proj/util/package_info_util.dart';
+import 'package:flutter_proj_base/net/env.dart';
+import 'package:flutter_proj_base/util/app_network_connectivity.dart';
+import 'package:flutter_proj_base/util/app_storage.dart';
+import 'package:flutter_proj_base/util/notification_center.dart';
+import 'package:flutter_proj_base/util/package_info_util.dart';
 import 'package:uuid/uuid.dart';
+
+
 
 class HeaderInterceptor extends Interceptor {
   @override

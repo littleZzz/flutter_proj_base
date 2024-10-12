@@ -1,7 +1,8 @@
 import 'dart:io';
 
 import 'package:device_info_plus/device_info_plus.dart';
-import 'package:flutter_new_proj/util/package_info_util.dart';
+import 'package:flutter_proj_base/util/package_info_util.dart';
+
 
 ///设备信息
 ///

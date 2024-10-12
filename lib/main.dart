@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_new_proj/screen/home/main_screen.dart';
-import 'package:flutter_new_proj/util/device_info_util.dart';
-import 'package:flutter_new_proj/util/package_info_util.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_proj_base/screen/home/main_screen.dart';
+import 'package:flutter_proj_base/util/device_info_util.dart';
+import 'package:flutter_proj_base/util/package_info_util.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized(); // 确保 Flutter 绑定已初始化
